@@ -1,0 +1,43 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "h h h"
+    "n a as"
+    "f f f";
+}
+article {
+    color: brown;
+    text-align: center;
+    margin: auto;
+    grid-area: ar;
+}
+h2 {
+    text-align: center;
+    color: black;
+}
+header {
+    grid-area: h;
+}
+nav {
+    grid-area: n;
+}
+aside {
+    grid-area: as;
+    text-align: center;
+}
+footer {
+    grid-area: f;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: brown;
+}
+a:hover {
+    color: darkgreen;
+}
+li {
+    list-style-type: none;
+}
+@media (max-width: 700px) {
+}

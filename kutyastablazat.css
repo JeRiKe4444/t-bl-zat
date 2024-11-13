@@ -1,0 +1,15 @@
+article {
+    color: brown;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: rgb(209, 209, 209);
+}
+table, td, th {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+th {
+    padding: 3px;
+}
